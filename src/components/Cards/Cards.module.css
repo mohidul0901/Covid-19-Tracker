@@ -1,0 +1,28 @@
+.container{
+    margin: 50px 0px;
+    background-color: cadetblue;
+    
+}
+
+.card{
+    margin: 1% 2% !important;
+    text-align: center;
+}
+
+.infected{
+    border-bottom: 10px solid red;
+}
+
+.recovered{
+    border-bottom: 10px solid green;
+}
+
+.deaths{
+    border-bottom: 10px solid black;
+}
+.cardheading{
+    font-weight: 1000;
+    color: black;
+    font-size: 150%;
+
+}
