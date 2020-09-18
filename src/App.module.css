@@ -1,6 +1,6 @@
 body{
-    /* background-color: rgb(255, 255, 255); */
-    background-image: url("https://www.en.etemaaddaily.com/pages/health/coronavirusupdates/1234biharcoro.jpg");
+    background-color: rgb(87, 180, 223);
+    /* background-image: url("https://www.en.etemaaddaily.com/pages/health/coronavirusupdates/1234biharcoro.jpg"); */
 }
 
 .container{
@@ -8,7 +8,7 @@ body{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    border: 2px solid cadetblue;
+    border: 5px solid cadetblue;
     background-color:whitesmoke;
 }
 
@@ -16,5 +16,10 @@ body{
     font-family: Verdana;
     font-weight: 900;
     font-size: 200%;
-    margin-top: 30px;
+    margin-top: 5px;
+}
+
+.headingimage{
+    width: 10%;
+    margin-top: 5px;
 }
