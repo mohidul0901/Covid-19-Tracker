@@ -6,7 +6,7 @@ import CountryPicker from './components/CountryPicker/CountryPicker';
 import styles from './App.module.css';
 
 import {fetchData} from './api';
-import image from './images/image.png';
+
 
 class App extends Component{
 
@@ -32,7 +32,7 @@ class App extends Component{
     
         return (
           <div className={styles.container}>
-            <img className={styles.image} src={image} alt="COVID-19" />
+            <h1 className={styles.heading}>Covid-19 Tracker</h1>
             <Cards data={data} />
             <CountryPicker handleCountryChange={this.handleCountryChange} />
             <Chart data={data} country={country} /> 

@@ -1,5 +1,6 @@
 body{
-    background-color: rgb(255, 255, 255);
+    /* background-color: rgb(255, 255, 255); */
+    background-image: url("https://www.en.etemaaddaily.com/pages/health/coronavirusupdates/1234biharcoro.jpg");
 }
 
 .container{
@@ -9,4 +10,11 @@ body{
     flex-direction: column;
     border: 2px solid cadetblue;
     background-color:whitesmoke;
+}
+
+.heading{
+    font-family: Verdana;
+    font-weight: 900;
+    font-size: 200%;
+    margin-top: 30px;
 }
